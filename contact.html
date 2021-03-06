@@ -16,27 +16,70 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+    <!-- drop down -->
     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="signup.html">Sign Up</a>
-        </li>
-      </ul>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Guide
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="about.html">About</a></li>
+        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+        <li><a class="dropdown-item" href="signup.html">Sign Up!</a></li>        
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="index.html">Home</a></li>
+    </ul>
+    </li>
+    </div>
+
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="signup.html">Sign Up</a>
+    </li>
+    </ul>
     </div>
     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-      </ul>
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+    </li>
+    </ul>
     </div>
-  </nav>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+    </li>
+    </ul>
+</div>
+</nav>
 <!-- Meat and Potatoes -->
 <!-- image -->
 <div class="image_container">
     <img class="img-fluid parallax" id="parallax" src="static/pexels-thirdman-5257759.jpeg" alt="ethinc computer">
-    <div class="centered">Extend your hand and find someone like you. You can get the help you want from hands similar to yours</div>
+    <div class="centered">
+    <form>
+        <div class="form-group">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Share Thoughts</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </div>
 <!-- footer -->
 <footer id='footer' class="container py-5">

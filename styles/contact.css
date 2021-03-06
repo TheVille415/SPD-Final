@@ -1,6 +1,7 @@
 /* @media (max-width: 576px) { */
 body, html {
     height: 100%;
+    background-color: rgb(202, 240, 240);
     }
 
 .parallax {
@@ -21,8 +22,8 @@ body, html {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: rgba(0, 0, 0, 0.288);
+        background-color: rgba(0, 0, 0, 0.418);
         color: white;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
+
     }

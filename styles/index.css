@@ -1,6 +1,7 @@
 /* @media (max-width: 576px) { */
 body, html {
     height: 100%;
+    background-color: rgb(236, 213, 213);
     }
 
 .parallax {
@@ -25,4 +26,19 @@ body, html {
         color: white;
         padding-left: 20px;
         padding-right: 20px;
+        font-size: large;
+    }
+
+    .first-box{
+        background-color: rgba(55, 218, 163, 0.671);
+
+    }
+
+    .second-box{
+        background-color: rgba(214, 176, 236, 0.884);
+
+    }
+
+    .third-box{
+        background-color: rgba(245, 191, 125, 0.849);
     }
